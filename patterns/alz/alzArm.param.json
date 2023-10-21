@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "myorg"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "myorg-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "myorg-identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "myorg-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "myorg-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "myorg-landing-zones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -49,14 +49,14 @@
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "australiaeast"
         }
       }
     },
     "policyAssignmentParametersServiceHealth": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "dacarubio@gmail.com"
         },
         "ResHlthUnhealthyAlertState": {
           "value": "true"
